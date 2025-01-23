@@ -24,7 +24,6 @@ namespace RoomBookingApp.Persistence.Tests
             var roomBookingService = new RoomBookingService(context);
 
             // act
-
             var availableRooms = roomBookingService.GetAvailableRooms(date);
 
             // assert
