@@ -34,7 +34,6 @@ namespace RoomBookingApp.Core.Tests
         public void Should_Return_Room_Booking_Response_With_Request_Values()
         {
             // arrange
-
             // act
 
             RoomBookingResult result = _processor.BookRoom(_request);
