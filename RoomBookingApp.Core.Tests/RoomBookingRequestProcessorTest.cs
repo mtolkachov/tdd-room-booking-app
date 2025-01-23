@@ -39,7 +39,6 @@ namespace RoomBookingApp.Core.Tests
             RoomBookingResult result = _processor.BookRoom(_request);
 
             // assert
-
             result.ShouldNotBeNull();
             result.FullName.ShouldBe(_request.FullName);
             result.Email.ShouldBe(_request.Email);
