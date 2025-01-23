@@ -35,7 +35,6 @@ namespace RoomBookingApp.Core.Tests
         {
             // arrange
             // act
-
             RoomBookingResult result = _processor.BookRoom(_request);
 
             // assert
